@@ -1,0 +1,192 @@
+.zakaz{
+    width: 1440px;
+    height: 758px;
+    margin: 0 auto;
+    .zakaz__h2{
+        color: #000;
+        text-align: center;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.25px;
+    }
+    .zakaz__content-1{
+        margin-top: 30px;
+        margin-left: 147px;
+        width: 1146px;
+        height: 295px; 
+        border-radius: 12px;
+        background-image: url(/images/MacBookPro-17-img/240x240_akvarel\ 2.png);
+        background-repeat: no-repeat;
+        .zakaz__content-1-1{
+            margin-left: 294px;
+            margin-top: 25px;
+            width: 828px;
+            height: 236px;
+            .zakaz__content-1-1-1{
+                display: flex;
+                width: 100%;
+                height: 34px;
+                .zakaz__content-1-1-1-text{
+                    color: #040921;
+                    font-family: Montserrat;
+                    font-size: 24px;    
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 140%;
+                }
+                .zakaz__content-1-1-1-img{
+                    margin-left: 375px;
+                }
+            }
+            .zakaz__content-1-1-img{
+                margin-top: 43px;
+            }
+            .zakaz__content-1-1-lorem{
+                color: #000;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                letter-spacing: 0.25px;
+            }
+            .zakaz__content-1-1-2{
+                display: flex;
+                margin-top: 28px;
+                width: 100%;
+                height: 37px;
+                .zakaz__content-1-1-2-text1{
+                    padding-top: 10px;
+                    color: var(--black, #0D0D0D);
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    letter-spacing: 0.44px;
+                }
+                .zakaz__content-1-1-2-text2{
+                    padding-left: 40px;
+                    padding-top: 10px;
+                    color: #000;
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    letter-spacing: 0.44px;
+                    .zakaz__content-1-1-2-text2-span{
+                        color: #000;
+                        text-align: center;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px; 
+                    }
+                }
+                .zakaz__content-1-1-2-img{
+                    margin-left: 428px;
+                }
+
+            }
+        }
+    }
+}
+@media (max-width: 376px){
+    .zakaz{
+        width: 100%;
+        .zakaz__h2{
+            padding-left: 28px;
+            text-align: left;
+        }
+        .zakaz__content-1{
+            margin-left: 28px;
+            width: 345px;
+            height: 108px; 
+            border-radius: 0px;
+            background-size: 95px 107px;
+            .zakaz__content-1-1{
+                margin-top: 2px;
+                margin-left: 105px;
+                width: 240px;
+                height: 100px;
+                .zakaz__content-1-1-1{
+                    display: flex;
+                    width: 100%;
+                    height: 34px;
+                    .zakaz__content-1-1-1-text{
+                        color: #040921;
+                        font-family: Montserrat;
+                        font-size: 14px;    
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 140%;
+                    }
+                    .zakaz__content-1-1-1-img{
+                        display: none;
+                    }
+                }
+                .zakaz__content-1-1-img{
+                    display: none;
+                }
+                .zakaz__content-1-1-lorem{
+                    display: none;
+                }
+                .zakaz__content-1-1-2{
+                    display: flex;
+                    margin-top: 10px;
+                    width: 100%;
+                    height: 37px;
+                    .zakaz__content-1-1-2-text1{
+                        padding-top: 2px;
+                        color: var(--black, #0D0D0D);
+                        font-variant-numeric: lining-nums proportional-nums;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 140%;
+                        letter-spacing: 0.44px;
+                    }
+                    .zakaz__content-1-1-2-text2{
+                        padding-left: 100px;
+                        padding-top: 0px;
+                        color: #000;
+                        font-variant-numeric: lining-nums proportional-nums;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 140%;
+                        letter-spacing: 0.44px;
+                        .zakaz__content-1-1-2-text2-span{
+                            color: #000;
+                            text-align: center;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 24px; 
+                        }
+                    }
+                    .zakaz__content-1-1-2-img{
+                        margin-left: -52px;
+                        margin-top: 35px;
+                        width: 100px;
+                        height: 24px;
+                    }
+    
+                }
+
+            }
+        }
+    }
+}

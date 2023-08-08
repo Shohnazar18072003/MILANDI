@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MILANDI</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+     
+    <main>
+        <section class="section1">
+            <h2 class="section1-h2">Оформление заказа</h2>
+            <!-- 217 -->
+            <div class="section1-content">
+                <div class="section1-content-1">
+                    <div class="section1-content-1-1">
+                        <div class="section1-content-11-1">
+                            <p class="section1-content-11-1-text">Товаров: (1)</p>
+                            <p class="section1-content-11-1-summa">Сумма: $235</p>
+                        </div>
+                        <div class="section1-content-12">
+                            <p class="section1-content-11-1-text1">Общая сумма к оплате: </p>
+                            <p class="section1-content-11-1-summa1">$235</p>
+                        </div>
+                    </div>
+                    <div class="section1-content-1-2">
+                        <img src="/images/MacBookPro-17-img/Group 192.svg" alt="img" class="section1-content-1-2-img1">
+                        <img src="/images/MacBookPro-17-img/Group 193.svg" alt="img" class="section1-content-1-2-img2">
+                    </div>
+                </div>
+                <form class="section1-content-2">
+                    <input type="text" placeholder="Адресс доставки" class="section1-content-2-inp1">
+                    <input type="text" placeholder="Имя" class="section1-content-2-inp2">
+                    <input type="number" placeholder="Номер телефона" class="section1-content-2-inp2">
+                    <button class="section1-content-2-button">Перейти к оплате</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
