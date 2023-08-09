@@ -1,0 +1,104 @@
+@import "./global";
+
+.section2 {
+  &-box {
+    height: 666px;
+    padding-bottom: 64px;
+
+    h2.title {
+      color: #000;
+      text-align: center;
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: "Montserrat", sans-serif;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 47.6px;
+      letter-spacing: 0.25px;
+      margin-bottom: 32px;
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      gap: 30px;
+
+      li {
+        width: 264px;
+        height: 522px;
+        border-radius: 12px;
+        background: #fff;
+        box-shadow: 0px 0px 98px 0px rgba(0, 0, 0, 0.05);
+
+        img {
+          margin-bottom: 7px;
+        }
+
+        h4.title {
+          margin: 0 auto;
+          margin-bottom: 8px;
+          width: 245px;
+          color: var(--black, #000);
+          font-variant-numeric: lining-nums proportional-nums;
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 19.6px;
+          letter-spacing: 0.75px;
+          text-transform: uppercase;
+        }
+
+        p.subtitle {
+          width: 245px;
+          height: 54px;
+          margin: 0 auto;
+          color: var(--black, #000);
+          font-variant-numeric: lining-nums proportional-nums;
+          font-family: "Montserrat", sans-serif;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 16.8px;
+          letter-spacing: 0.4px;
+        }
+
+        .raiting__box {
+          width: 245px;
+          display: flex;
+          gap: 82px;
+          align-items: center;
+          margin: 0 auto;
+          margin-bottom: 8px;
+
+          img {
+            margin: 0;
+          }
+        }
+
+        .section2_btn {
+          display: flex;
+          width: 238px;
+          margin-left: 13px;
+          padding: 8px 24px;
+          justify-content: space-between;
+          align-items: center;
+          border-radius: 6px;
+          background: var(--gold, #ffc000);
+          color: var(--black, #000);
+          text-align: center;
+          font-variant-numeric: lining-nums proportional-nums;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 19.6px;
+          letter-spacing: 0.75px;
+          text-transform: uppercase;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import "./global";
+
+.section3 {
+  .section3-box {
+    height: 683px;
+    padding-bottom: 243px;
+
+    h2.title {
+      color: #000;
+      text-align: center;
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: "Montserrat", sans-serif;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 47.6px;
+      letter-spacing: 0.25px;
+      margin-bottom: 38px;
+    }
+
+    ul {
+      position: relative;
+      list-style-type: none;
+      display: flex;
+      gap: 30px;
+
+      li {
+        .section3_btn {
+          position: absolute;
+          left: 0;
+          bottom: 5px;
+          border: none;
+          width: 264px;
+          height: 78px;
+          border-radius: 0px 0px 8px 8px;
+          background: var(--black, #0d0d0d);
+          color: var(--yellow, #ffc000);
+          font-variant-numeric: lining-nums proportional-nums;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 33.6px;
+        }
+      }
+    }
+  }
+}

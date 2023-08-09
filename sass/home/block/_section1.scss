@@ -1,0 +1,57 @@
+@import "./global";
+
+.section1 {
+  display: flex;
+
+  &-box {
+    height: 342px;
+    padding-top: 46px;
+
+    h2.title {
+      color: #000;
+      text-align: center;
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: "Montserrat", sans-serif;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 47.6px;
+      letter-spacing: 0.25px;
+      margin-bottom: 24px;
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      margin-bottom: 80px;
+
+      li {
+        width: 294px;
+        height: 144px;
+        border-radius: 12px;
+        background: var(--tecxt-white, #fff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          margin-top: 26px;
+          margin-bottom: 45px;
+        }
+
+        p.subtitle {
+          color: var(--black, #000);
+          font-variant-numeric: lining-nums proportional-nums;
+          font-family: "Montserrat", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 22.4px;
+          letter-spacing: 0.44px;
+        }
+      }
+    }
+  }
+}
